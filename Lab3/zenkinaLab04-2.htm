@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>IvanennkoLab04-2</title>
+</head>
+<body>
+
+    <!-- 1. Коливання з боку в бік -->
+    <marquee behavior="alternate"
+             direction="left"
+             bgcolor="#FF9999"
+             width="100%"
+             height="50"
+             scrollamount="5"
+             scrolldelay="85"
+             loop="-1">
+        Текст коливається з боку в бік
+    </marquee>
+
+    <!-- 2. Справа наліво та знову з’являється -->
+    <marquee behavior="scroll"
+             direction="left"
+             bgcolor="#99CCFF"
+             width="100%"
+             height="50"
+             scrollamount="6"
+             scrolldelay="85"
+             loop="-1">
+        Текст пробігає справа наліво та з’являється знову
+    </marquee>
+
+    <!-- 3. Зліва направо та зупиняється -->
+    <marquee behavior="slide"
+             direction="right"
+             bgcolor="#99FF99"
+             width="100%"
+             height="50"
+             scrollamount="6"
+             scrolldelay="85"
+             loop="1">
+        Текст пробігає зліва направо та зупиняється
+    </marquee>
+
+    <!-- 4. Два рядки з різними режимами -->
+    <marquee behavior="scroll"
+             direction="right"
+             bgcolor="#FFFF99"
+             width="100%"
+             height="50"
+             scrollamount="4"
+             scrolldelay="85"
+             loop="-1">
+        Перший рядок рухається зліва направо (безкінечно)
+    </marquee>
+
+    <marquee behavior="alternate"
+             direction="left"
+             bgcolor="#FFCCFF"
+             width="100%"
+             height="50"
+             scrollamount="8"
+             scrolldelay="85"
+             loop="-1">
+        Другий рядок рухається у режимі відбивання
+    </marquee>
+
+</body>
+</html>
