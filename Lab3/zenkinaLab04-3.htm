@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
+    <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
-  <!-- Рядок 1: коливальний текст -->
-  <marquee behavior="alternate" scrollamount="5" bgcolor="#ffd1dc">
-    Рядок 1 — коливається
-  </marquee>
 
-  <!-- Рядок 2: рух знизу догори -->
-  <marquee behavior="scroll" direction="up" scrollamount="4" bgcolor="#d0f0c0" height="50">
-    Рядок 2 — рух знизу догори
-  </marquee>
 
-  <!-- Рядок 3: рух згори до низу із зупинкою -->
-  <marquee behavior="alternate" direction="down" scrollamount="3" bgcolor="#cfe2ff" height="50">
-    Рядок 3 — рух згори до низу
-  </marquee>
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+  
+    <tr>
+        <td bgcolor="#FFDAB9" height="60">
+            <marquee direction="up" behavior="alternate" height="60" scrollamount="3">
+                <span style="font-size:18px;">✦ Коливальний рядок — текст та малюнки ✦ 🎵 🎈 🎨</span>
+            </marquee>
+        </td>
+    </tr>
 
-  <!-- Рядок 4: текст з коротким запізненням -->
-  <marquee behavior="scroll" scrollamount="6" scrolldelay="20" bgcolor="#fff3b0">
-    Рядок 4 — коротке запізнення
-  </marquee>
+   
+    <tr>
+        <td bgcolor="#E0FFFF" height="60">
+            <marquee direction="up" behavior="scroll" height="60" scrollamount="4" loop="">
+                🔴 🔵 🟢 🟡 🔺 🔻 🔸 🔹 🔴 🔵 🟢 🟡 🔺
+            </marquee>
+        </td>
+    </tr>
 
-  <!-- Рядок 5: текст з довшим запізненням -->
-  <marquee behavior="scroll" scrollamount="4" scrolldelay="120" bgcolor="#e6d0ff">
-    Рядок 5 — довше запізнення
-  </marquee>
+
+    <tr>
+        <td bgcolor="#FFFACD" height="60">
+            <marquee direction="down" behavior="slide" height="60" scrollamount="4">
+                ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲
+            </marquee>
+        </td>
+    </tr>
+
+  
+    <tr>
+        <td bgcolor="#F0E68C" height="60">
+            
+            <marquee direction="up" behavior="scroll" height="60" scrolldelay="40" scrollamount="6">
+                Швидкий рядок — рух з меншим запізненням. ✨✨✨
+            </marquee>
+        </td>
+    </tr>
+
+    <tr>
+        <td bgcolor="#E6E6FA" height="60">
+           
+            <marquee direction="up" behavior="scroll" height="60" scrolldelay="120" scrollamount="2">
+                Повільний рядок — рух з більшим запізненням. ⏳⏳⏳
+            </marquee>
+        </td>
+    </tr>
+</table>
+
 
 </body>
 </html>
+
