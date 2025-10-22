@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Замовлення товару — Лабораторна №7</title>
+</head>
+<body>
+<h2>Форма замовлення товару</h2>
+
+<form action="accept.html" target="_blank" method="post">
+Номер банківського рахунку:
+<input type="text" name="account" size="25"><br><br>
+
+Особистий номер користувача:
+<input type="password" name="userid" size="10" maxlength="10"><br><br>
+
+Оберіть товари:<br>
+<select name="goods" size="4" multiple>
+  <option value="1">Ноутбук</option>
+  <option value="2">Смартфон</option>
+  <option value="3">Навушники</option>
+  <option value="4">Мишка</option>
+  <option value="5">Клавіатура</option>
+</select><br><br>
+
+Вид оплати:<br>
+<input type="radio" name="pay" value="cash" checked> Готівковий<br>
+<input type="radio" name="pay" value="card"> Безготівковий<br><br>
+
+Додаткова інформація, яку бажаєте отримати:<br>
+<input type="checkbox" name="info1" value="balance"> Дані про залишки на рахунку<br>
+<input type="checkbox" name="info2" value="payments"> Останні виплати по рахунку<br><br>
+
+Коментарі:<br>
+<textarea name="comments" rows="4" cols="50"></textarea><br><br>
+
+<input type="reset" value="Очистити форму">
+<input type="submit" value="Відправити замовлення">
+</form>
+</body>
+</html>
